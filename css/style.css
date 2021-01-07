@@ -1,0 +1,50 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: bold;
+    color: #D6000D;
+}
+
+h1 span {
+    color: #000000;
+}
+
+nav li {
+    display: inline;
+    margin-left: 1.5em;
+}
+
+li a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #000000;
+}
+
+li a:hover {
+    color: #D6000D;
+}
+
+#btnLogin {
+    border: 1px solid #D6000D;
+    background-color: #D6000D;
+    padding: 0.3em 2.3em;
+    color: #FFFFFF;
+    border-radius: 7px;
+}
+
+#btnLogin:hover {
+    background-color: #BB4D55;
+}
+
